@@ -1,0 +1,35 @@
+
+.styled-todo{
+    background-color: blueviolet;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+}
+
+#to-do-input{
+    background-color: cadetblue;
+    height: 40px;
+    width: 240px;
+    padding: 0 10px;
+    margin: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 0;
+    color: #ffffff;
+}
+#to-do-input:focus{
+    outline: none;
+}
+#to-do-button{
+    height: 40px;
+    width: 80px;
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+}
+#to-do-button:focus{
+    outline: none;
+}
+    

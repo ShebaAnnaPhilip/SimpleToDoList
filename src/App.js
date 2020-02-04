@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoList from './components/TodoList';
+import StyledTodoList from './components/StyledTodoList';
+import ReduxAddTodo from './components/ReduxAddTodo';
+import ReduxTodoList from './components/ReduxTodoList';
+import AddTask from './componentsnew/AddTask';
+import TaskList from './componentsnew/TaskList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h4>Simple To Do List</h4>
+      <TodoList/>
+      <StyledTodoList/> */}
+      <h4>Redux To Do List</h4>
+      {/* <ReduxAddTodo/>
+      <ReduxTodoList/> */}
+      <AddTask/>
+      <TaskList/>
     </div>
   );
 }
